@@ -1,0 +1,30 @@
+﻿body {
+}
+h1 {
+    color:darkgreen;
+}
+.FormContainer{
+    font-size: 20px;
+    margin-left:350px;
+    width: 800px;
+}
+
+#ConfirmationNumber {
+    font-size: 32px;
+    margin-left:250px;
+}
+#ConfirmationHeading {
+    margin-top:100px;
+}
+
+.ConfPict {
+    padding:50px;
+    height:200px;
+    width: 200px;
+}
+
+#ConfirmationImages {
+    position:absolute;
+    top: 480px;
+    left: 1100px;
+}

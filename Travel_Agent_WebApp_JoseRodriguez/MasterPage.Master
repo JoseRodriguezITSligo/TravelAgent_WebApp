@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Travel_Agent_WebApp_JoseRodriguez.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>www.ToursVenezuela.com</title>
+    <link rel="stylesheet" type="text/css" href="MasterPage_StyleSheet.css"/>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="MasterPage_JavaScript.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+            <header id="header-wrapper">
+                <img id="Clouds" src="clouds.png" style="height:50%;width:50%"/>
+                <div id="tools-bar"></div> <!--End tool bar-->
+                <div id="header-left">
+                </div>
+                <!--End header-left-->
+                <div id="header-right">
+                <!--Start menu-->
+                <div id="menuConteiner"> 
+                    <ul id="menu">
+                        <li id="Home" class="menu" style="margin-left:50px">
+                            <a href="Home.aspx"><img id="HomeImg" src="Home_new.png"/></a>
+                        </li>
+                        <li id="Destinations" class="menu">
+                            <span><b>Destinations</b></span>
+                            <ul id="submenu-Dest" class="submenu">
+                                <li><a href="Angel_Falls.aspx">Angel Falls</a></li>
+                                <li><a href="Canaima.aspx">Canaima</a></li>
+                                <li><a href="LosRoques.aspx">Los Roques</a></li>
+                                <li><a href="LosAndes.aspx">Los Andes</a></li>
+                                <li><a href="Morrocoy.aspx">Morrocoy</a></li>
+                            </ul>
+                        </li>
+                        <li id="AboutUs" class="menu">
+                            <span class="menu-Title"><b>About us</b></span>
+                            <ul id="submenu-AboutUs" class="submenu">
+                                <li><a href="Our_Services.aspx">Our services</a></li>
+                            </ul>
+                        </li>
+                        <li id="Gallery" class="menu">
+                            <span><b>Gallery</b></span>
+                            <ul id="submenu-Gallery" class="submenu">
+                                <li><a href="Mountains.aspx">Mountains</a></li>
+                                <li><a href="Deserts.aspx">Deserts</a></li>
+                                <li><a href="Beaches.aspx">Beaches</a></li>
+                                <li><a href="City.aspx">City</a></li>
+                            </ul>
+                        </li>
+                        <li id="ContactUs" class="menu">
+                            <span><b>Contact us</b></span>
+                            <ul id="submenu-ContactUs" class="submenu">
+                                <li><a href="mailto:info@toursvenezuela.com" style="text-decoration:none">Email us</a></li>
+                                <li><a href="ContactForm.aspx">Contact form</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!--End menu-->
+                </div>
+                <!--End header-right-->
+            </header>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+     <footer>
+        <img id="Venezuela_Map" src="VenezuelaBlack_NoBG.png"/>
+    </footer>
+</body>
+</html>

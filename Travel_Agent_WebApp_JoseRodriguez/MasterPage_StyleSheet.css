@@ -1,0 +1,84 @@
+﻿body {
+
+}
+#Clouds {
+    position:relative;
+    top:50px;
+    left:-710px;
+    opacity: 1;
+}
+
+
+#header-wrapper {
+    height: 335px;
+    width: 100%;
+    background-color: aquamarine;
+    margin: 0;
+    background-image:url(Angel_falls_panoramic.jpg);
+    border-style:outset;
+    border-bottom-color:green;
+}
+
+#header-left {
+    height: auto;
+    width: 100px;
+}
+#header-right {
+    margin-left: 100px;
+    height: 335px;
+    width: 100%;
+}
+#menuConteiner{
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    top: 340px;
+}
+#menu {
+    height:45px;
+    width:100%;
+    list-style:none;
+    text-decoration: none;
+}
+
+#HomeImg {
+    margin-left:0;
+}
+.menu {
+    float: left;
+    margin-left: 150px;
+    font-size:25px;
+}
+    .menu:hover {
+        color: darkgreen;
+    }
+.submenu {
+    list-style:none;
+    padding-top:5px;
+    background-color:rgba(9, 140, 9, 0.65);
+    padding:10px;
+    visibility:hidden;
+    border-style:double;
+}
+#Destinations:hover > #submenu-Dest {
+    visibility:visible;
+}
+#AboutUs:hover > #submenu-AboutUs {
+    visibility:visible;
+}
+#Gallery:hover > #submenu-Gallery {
+    visibility:visible;
+}
+#ContactUs:hover > #submenu-ContactUs {
+    visibility:visible;
+}
+footer {
+    margin-left:310px;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+}
+    a:hover {
+        color:white;
+    }

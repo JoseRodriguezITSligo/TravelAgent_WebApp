@@ -1,0 +1,43 @@
+﻿body {
+    font-size:25px;
+}
+
+#ImageFrame {
+    margin-top: 120px;
+    margin-left: 310px;
+    height:600px;
+    width: 900px;
+    border-style:ridge;
+    border-width: 10px;
+    border-bottom-color:gray;
+    border-right-color: gray;
+}
+.info {
+    margin-top:20px;
+    margin-left: 320px;
+    width:800px;
+}
+ #ForwardArrow {
+            position:absolute;
+            top:750px;
+            left:1135px;
+            opacity:0.2;
+        }
+            #ForwardArrow:hover {
+                opacity:1;
+            }
+   #BackwardArrow {
+            position:absolute;
+            top:750px;
+            left:335px;
+            opacity:0.2;
+        }
+            #BackwardArrow:hover {
+                opacity:1;
+            }
+h1 {
+    color:darkgreen;
+}
+h2 {
+    color:darkgreen;
+}

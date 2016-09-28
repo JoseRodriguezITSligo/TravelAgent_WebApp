@@ -1,0 +1,102 @@
+﻿body {
+    
+}
+/*For some extrange reason the height and width values could not be set up by using
+    class definitions. Indidual treatment was required to resize the images.
+    Tired this notation: div table tr td img, but no success either.
+*/
+
+#AngelFalls1 {
+    height:200px;
+    width: 200px;
+    margin-left:220px;
+}
+#AngelFalls2 {
+    height:200px;
+    width: 200px;
+    margin-left:220px;
+}
+#AngelFalls3 {
+    height:200px;
+    width: 200px;
+    margin-left:220px;
+}
+#Canaima1 {
+    height:200px;
+    width: 200px;
+    margin-left:220px;
+}
+#Canaima2 {
+    height:200px;
+    width: 200px;
+    margin-left:220px;
+}
+#Canaima3 {
+    height:200px;
+    width: 200px;
+    margin-left:220px;
+}
+#Images-wrapper {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.BigFrame {
+    margin-top:25px;
+    margin-left:440px;
+    width:600px;
+    height:600px;
+    border:outset;
+    border-color: green;
+    border-width:5px;
+    display:none;
+}
+.BigPicture {
+    width:600px;
+    height:600px;
+}
+#HideButton {
+    margin-top:10px;
+    margin-left:240px;
+    width:100px;
+    height:40px;
+    font-size:25px;
+    border:solid;
+    background-color:lightgray;
+    text-align:center;
+}
+    #HideButton:hover {
+        opacity:0.4;
+    }
+#info-Section {
+    margin-top: 120px;
+    margin-left: 250px; 
+    font-size:25px;
+    width:810px;
+}
+#TourInfo {
+    margin-top: 80px;
+    margin-left: 250px;
+    font-size: 25px;
+    list-style:none;
+}
+h1 {
+    color:darkgreen;
+}
+h2 {
+    color:darkgreen;
+}
+
+#BreakPoint {
+    margin-top: 30px;
+    margin-left:120px;
+}
+#Up {
+    margin-top: 30px;
+    margin-left: 180px;
+}
+Label {
+    padding: 10px;
+}
+
+

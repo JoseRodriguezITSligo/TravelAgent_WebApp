@@ -1,0 +1,24 @@
+﻿body {
+}
+h1 {
+    margin-top:90px;
+    margin-left: 90px;
+    color:darkgreen;
+}
+#ContactForm-wrapper {
+    border:solid;
+    margin-left:250px;
+    margin-top:50px;
+    padding: 15px;
+    width:980px;
+    height:510px;
+    background-image:url("LosRoques1.jpg");
+}
+p {
+    font-size:25px;
+    margin-left: 80px;
+    width: 1184px;
+}
+
+#TexBox1 {
+}
